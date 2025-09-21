@@ -12,7 +12,7 @@ jobs:
     steps:
       - run: echo "👋 Hello World!"
       - name: Checkout
-        uses: actions/checkout@3.5.2
+        uses: actions/checkout@5.0.0
       - name: List files in the repository
         run: |
           echo "The repository ${{ github.repository }}" contains the following files:"
